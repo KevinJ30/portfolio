@@ -1,0 +1,6 @@
+@startuml
+
+    visiteur -> server : Demande l'affichage des actualités
+    server --> visiteur : Affiche la liste des actualités
+
+@enduml

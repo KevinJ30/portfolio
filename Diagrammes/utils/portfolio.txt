@@ -1,0 +1,26 @@
+@startuml
+    (Authentification) as auth << include >>
+    (Afficher les projets) as draw_project
+    (Ajouter un projet) as add_project
+    (Editer un projet) as edit_project
+    (Supprimer un projet) as delete_project
+    (Afficher/Masquer un projet) as toggleDraw_project
+
+    (add_project) <.. (auth)
+    (edit_project) <.. (auth)
+    (delete_project) <.. (auth)
+    (toogleDraw_project) <.. (auth)
+
+    :Visiteur: as visitor
+    :Administrateur: as administrator
+
+    visitor <|-- administrator 
+
+    visitor ---> (draw_project)
+
+    administrator ---> (draw_project)
+    administrator ---> (add_project)
+    administrator ---> (edit_project)
+    administrator ---> (delete_project)
+    administrator ---> (toggleDraw_project)
+@enduml

@@ -1,0 +1,21 @@
+@startuml
+    actor visiteur as visitor
+    actor administrateur as admin
+
+    visitor <|-- admin
+
+    usecase draw_information as "Afficher les informations"
+
+    usecase edit_information as "Editer les inforamtions"
+
+    usecase send_message as "Formulaire de contact"
+
+    usecase auth as "Authentitification" << include >>
+
+    visitor ---> (draw_information)
+    visitor ---> (send_message)
+    admin ---> (edit_information)
+    
+    (edit_information) <.. (auth)
+    
+@enduml

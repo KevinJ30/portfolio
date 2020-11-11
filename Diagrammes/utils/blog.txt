@@ -1,0 +1,26 @@
+@startuml
+    (Authentification) as auth << include >>
+    (Afficher les actualité) as draw_post
+    (Ajouter un actualités) as add_post
+    (Editer un actualités) as edit_post
+    (Supprimer un actualités) as delete_post
+    (Afficher/Masquer un actualités) as togglePublish_post
+
+    (add_post) <.. (auth)
+    (edit_post) <.. (auth)
+    (delete_post) <.. (auth)
+    (togglePublish_post) <.. (auth)
+
+    :Visiteur: as visitor
+    :Administrateur: as administrator
+
+    visitor <|-- administrator 
+
+    visitor ---> (draw_post)
+    administrator ---> (add_post)
+    administrator ---> (edit_post)
+    administrator ---> (delete_post)
+    administrator ---> (togglePublish_post)
+
+    
+@enduml
