@@ -1,0 +1,18 @@
+@startuml
+
+    admin -> server : Demande à modifier un proejt
+
+    alt Si le projet n'existe pas
+        server --> admin : retourne une exception
+    end
+
+    server --> admin: affiche la page de modification du projet
+
+    admin -> server : Modifie les informations du projet et clique sur le bouton modifier
+    
+    alt Validation data not ok
+        server --> admin : Retourne à l'étape 3
+    end
+
+    server --> admin : Enregistre les modifications et redirige l'utilisateur
+@enduml
