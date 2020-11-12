@@ -1,6 +1,0 @@
-@startuml
-
-    visiteur -> server : Demande l'affichage des projets
-    server --> visiteur : Affiche la liste des projets
-
-@enduml

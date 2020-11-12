@@ -1,4 +1,0 @@
-@startuml
-    admin -> server : clique sur le bouton activer une actualités
-    server --> admin : active le post et affiche un message à l'utilisateur
-@enduml

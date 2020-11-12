@@ -1,4 +1,0 @@
-@startuml
-    admin -> server : clique sur le bouton activer un projet
-    server --> admin : active le projet et affiche un message à l'utilisateur
-@enduml
