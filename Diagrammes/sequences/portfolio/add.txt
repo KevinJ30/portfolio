@@ -1,0 +1,12 @@
+@startuml
+    admin -> server : Demande la page d'ajout
+    server --> admin: Affiche la page d'ajout
+    admin -> server : Remplie les information du nouevau projet
+    
+    alt validation data not ok
+        server --> admin : Retourne a l'étape 3
+    else Validation data ok
+        server --> admin : enregistre et redirige l'admiinstrateur sur la liste des projets
+        admin -> server : l'admin et notifié de l'ajout de son projet
+    end
+@enduml
