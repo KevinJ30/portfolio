@@ -23,3 +23,6 @@ web/.htaccess
 
 # WP-CLI
 wp-cli.local.yml
+
+# Themes files
+web/app/themes/kevinj30_portfolio/node_modules
