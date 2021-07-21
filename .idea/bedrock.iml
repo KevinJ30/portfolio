@@ -15,6 +15,11 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-ctype" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/polyfill-php80" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/squizlabs/php_codesniffer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/twig/twig" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/asm89/twig-cache-extension" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/upstatement/routes" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/timber/timber" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/altorouter/altorouter" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
