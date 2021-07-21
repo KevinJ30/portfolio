@@ -10,3 +10,5 @@ require_once WP_ROOT . '/vendor/autoload.php';
  * Initialise Timber
  **/
 $timber = new Timber\Timber();
+
+$init = new \App\KevinJ30Init();
