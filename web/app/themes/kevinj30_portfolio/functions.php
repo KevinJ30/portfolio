@@ -20,3 +20,8 @@ $init = new \App\KevinJ30Init();
  * Customizer App
  **/
 new KevinJ30_IntroductionTextCustomizer();
+
+/**
+ * Post type
+ **/
+new \App\PostType\Skills\KevinJ30_SkillPostType();
