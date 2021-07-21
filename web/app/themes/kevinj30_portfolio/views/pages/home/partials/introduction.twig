@@ -1,12 +1,10 @@
 <div class="grid grid-2 grid-gap-4 align-items-center">
     <!-- Text and button for introduction -->
     <div class="introduction">
-        <h1 class="section__title introduction__title mb-5">Développeur fullstack</h1>
+        <h1 class="section__title introduction__title mb-5">{{ title }}</h1>
 
         <div class="introduction">
-            <div class="introduction__text">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, aliquid animi atque dicta eveniet id ipsa, iusto nisi odit placeat quasi sapiente similique, sunt tempore temporibus vero voluptatibus. Dolor eius eligendi eos, expedita facilis iure labore, laboriosam magnam modi molestiae porro quae, quis sed similique unde. Accusantium aliquam, cumque dignissimos dolore expedita facere facilis fugit incidunt ipsa magni minus neque nostrum praesentium quaerat quas reprehenderit rerum saepe tempora vel velit. Accusamus aspernatur consequatur deserunt facere ipsa laudantium molestiae natus nostrum sunt? A, aut, minima! Ad atque ducimus eaque esse exercitationem magnam maiores, odio, quae quibusdam quisquam repellendus saepe sequi! Aspernatur consectetur, consequatur dolores doloribus earum enim id in, incidunt inventore laboriosam maiores maxime modi nulla quasi quisquam reprehenderit totam vero?
-            </div>
+            <div class="introduction__text">{{ introduction }}</div>
             <div class="introduction__callActions">
                 <a href="#" class="btn btn-primary">Mes réalisations</a>
                 <a href="#" class="btn btn-primary btn-outline">En savoir plus...</a>
@@ -16,6 +14,7 @@
 
     <!-- Image introduction -->
     <div class="introduction_image">
-        {% include 'pages/home/elements/introduction_svg.twig' %}
+        {{ introduction_image }}
+{#        {% include 'pages/home/elements/introduction_svg.twig' %}#}
     </div>
 </div>
