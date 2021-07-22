@@ -2,11 +2,10 @@
 
 namespace App\Customizer\Configuration\Introduction;
 
-use App\Customizer\KevinJ30_AbstractCustomizer;
+use App\Customizer\AbstractCustomizer;
 use WP_Customize_Manager;
-use WP_Customize_Upload_Control;
 
-class KevinJ30_IntroductionTextCustomizer extends KevinJ30_AbstractCustomizer
+class IntroductionTextCustomizer extends AbstractCustomizer
 {
     private string $title = "Personnaliser votre introduction";
 

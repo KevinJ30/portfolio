@@ -10,7 +10,7 @@ use WP_Customize_Manager;
  * Class KevinJ30_CustomizerInterface
  * @package App\Customizer
  **/
-abstract class KevinJ30_AbstractCustomizer
+abstract class AbstractCustomizer
 {
     public function __construct()
     {

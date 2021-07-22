@@ -3,7 +3,8 @@
  * @var string Get root directory on the project
  **/
 
-use App\Customizer\Configuration\Introduction\KevinJ30_IntroductionTextCustomizer;
+use App\Customizer\Configuration\Introduction\IntroductionTextCustomizer;
+use App\PostType\Skills\SkillPostType;
 
 define('WP_ROOT', dirname(dirname(dirname(dirname(__DIR__)))));
 
@@ -19,9 +20,9 @@ $init = new \App\KevinJ30Init();
 /**
  * Customizer App
  **/
-new KevinJ30_IntroductionTextCustomizer();
+$introductionCustomizer = new IntroductionTextCustomizer();
 
 /**
  * Post type
  **/
-new \App\PostType\Skills\KevinJ30_SkillPostType();
+new SkillPostType();

@@ -3,7 +3,7 @@ namespace App\PostType\Skills;
 
 use App\PostType\AbstractPostType;
 
-class KevinJ30_SkillPostType extends AbstractPostType
+class SkillPostType extends AbstractPostType
 {
     public function __construct()
     {
