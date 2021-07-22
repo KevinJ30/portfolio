@@ -26,3 +26,16 @@ $introductionCustomizer = new IntroductionTextCustomizer();
  * Post type
  **/
 new SkillPostType();
+
+
+add_filter('timber/twig', 'add_notes_twig');
+
+function add_notes_twig($twig)
+{
+    // Adding a function.
+    $twig->addFunction(new Timber\Twig_Function('notes', function (int $note, int $maxNotes = 5) {
+
+    }));
+
+    return $twig;
+}

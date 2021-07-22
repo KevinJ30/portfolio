@@ -43,7 +43,7 @@ abstract class AbstractPostType
 
     public function register()
     {
-        register_post_type('news', $this->arguments());
+        register_post_type($this->singularName, $this->arguments());
     }
 
     protected function label() : array

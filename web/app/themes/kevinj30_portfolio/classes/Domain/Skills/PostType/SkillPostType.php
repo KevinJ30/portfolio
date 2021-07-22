@@ -7,6 +7,12 @@ class SkillPostType extends AbstractPostType
 {
     public function __construct()
     {
-        parent::__construct('Compétences', 'Compétence', 'Compétences', 'dashicons-awards');
+        parent::__construct(
+            'Compétences',
+            'Compétence',
+            'Compétences',
+            'dashicons-awards',
+            ['title']
+        );
     }
 }
