@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Customizer\Configuration\Introduction;
+namespace App\Domain\Configuration\Customizer;
 
-use App\Customizer\AbstractCustomizer;
+use KevinJ30\Customizer\AbstractCustomizer;
 use WP_Customize_Manager;
 
 class IntroductionTextCustomizer extends AbstractCustomizer

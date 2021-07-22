@@ -3,8 +3,8 @@
  * @var string Get root directory on the project
  **/
 
-use App\Customizer\Configuration\Introduction\IntroductionTextCustomizer;
-use App\PostType\Skills\SkillPostType;
+use App\Domain\Configuration\Customizer\IntroductionTextCustomizer;
+use App\Domain\Skills\PostType\SkillPostType;
 
 define('WP_ROOT', dirname(dirname(dirname(dirname(__DIR__)))));
 

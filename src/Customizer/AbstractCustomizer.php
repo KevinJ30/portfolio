@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Customizer;
+namespace KevinJ30\Customizer;
 
 use WP_Customize_Manager;
 

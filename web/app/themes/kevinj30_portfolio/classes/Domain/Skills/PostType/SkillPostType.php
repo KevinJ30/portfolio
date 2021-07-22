@@ -1,7 +1,7 @@
 <?php
-namespace App\PostType\Skills;
+namespace App\Domain\Skills\PostType;
 
-use App\PostType\AbstractPostType;
+use KevinJ30\PostType\AbstractPostType;
 
 class SkillPostType extends AbstractPostType
 {

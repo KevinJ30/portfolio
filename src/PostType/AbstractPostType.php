@@ -1,6 +1,6 @@
 <?php
 
-namespace App\PostType;
+namespace KevinJ30\PostType;
 
 abstract class AbstractPostType
 {
