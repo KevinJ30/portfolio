@@ -20,6 +20,12 @@
       <excludeFolder url="file://$MODULE_DIR$/vendor/upstatement/routes" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/timber/timber" />
       <excludeFolder url="file://$MODULE_DIR$/vendor/altorouter/altorouter" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/mustache/mustache" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/wp-cli/mustangostang-spyc" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/wp-cli/php-cli-tools" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/rmccue/requests" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/wp-cli/wp-cli" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
