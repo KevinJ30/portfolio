@@ -12,6 +12,10 @@ class KevinJ30Init
 
     public function __construct()
     {
+        // Supports
+        add_theme_support('post-thumbnails');
+
+        // Actions
         add_action('wp_enqueue_scripts', [$this, 'assetsRegister']);
         add_action('init', [$this, 'resetWp']);
     }

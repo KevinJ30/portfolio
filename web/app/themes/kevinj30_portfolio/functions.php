@@ -4,6 +4,7 @@
  **/
 
 use App\Domain\Configuration\Customizer\IntroductionTextCustomizer;
+use App\Domain\Projects\PostType\ProjectPostType;
 use App\Domain\Skills\PostType\SkillPostType;
 use KevinJ30\TwigExtension\Elements\RatingStarsTwigExtension;
 
@@ -27,6 +28,7 @@ $introductionCustomizer = new IntroductionTextCustomizer();
  * Post type
  **/
 new SkillPostType();
+new ProjectPostType();
 
 
 
