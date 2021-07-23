@@ -498,6 +498,14 @@ table tbody tr:nth-child(even) {
 }
 
 /**
+ * Elements
+ */
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+/**
  * Pages
  **/
 .section_home {
@@ -581,12 +589,18 @@ table tbody tr:nth-child(even) {
   flex-direction: row;
 }
 
-.skill__notes > span {
+.skill__notes > .icon {
+  width: 18px;
+  height: 18px;
   margin-right: 8px;
 }
 
-.skill_notes > span:last-child {
+.skill_notes > .icon:last-child {
   margin-right: 0;
+}
+
+.skill__notes > .star-active {
+  color: #EFEFF0;
 }
 
 .skill__svg svg {
@@ -654,17 +668,5 @@ table tbody tr:nth-child(even) {
     margin-right: 0;
     margin-bottom: 0;
   }
-}
-/**
- * Pages Administration
- **/
-.page-admin_skills table svg {
-  width: 40px;
-  height: 40px;
-}
-
-.page-admin_skills table .icon.icon-stars svg {
-  width: 10px;
-  height: 10px;
 }
 /*# sourceMappingURL=app.css.map */

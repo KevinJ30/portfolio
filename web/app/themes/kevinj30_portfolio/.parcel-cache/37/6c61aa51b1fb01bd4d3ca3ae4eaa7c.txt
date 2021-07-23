@@ -1,5 +1,5 @@
-16104
-85C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\dist132715164122163631 1
+16102
+85C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\dist132715195460853190 1
 90C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\.cache\d2132713566833924455 1
 115C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\tweetnacl\nacl.min.js132573515169779998 0
 106C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\aws4\LICENSE132573515164710000 0
@@ -44,12 +44,12 @@
 127C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\node-addon-api\doc\object_wrap.md132713173255150002 0
 135C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\postcss-modules-extract-imports\README.md132713173254030000 0
 116C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\lodash\fp\trimChars.js132592542618460000 0
-94C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\functions.php132714295544701652 0
+94C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\functions.php132715191752673367 0
 142C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\@babel\plugin-syntax-nullish-coalescing-operator132713564873021054 1
 113C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\lodash\fp\isNull.js132592542618460000 0
 111C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\des.js\lib\des.js132573515160780000 0
 115C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\path-key\package.json132573515093130000 0
-87C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets132715163918625029 1
+87C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets132715192820416659 1
 146C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\node-libs-browser\node_modules\punycode\package.json132573515061500000 0
 120C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\core-js\client\core.min.js132573515141240002 0
 129C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\vm-browserify\example\run\bundle.js132573515083570002 0
@@ -204,7 +204,7 @@
 108C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\to-arraybuffer132713564881518332 1
 125C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\@babel\traverse\lib\visitors.js132712814200980000 0
 103C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\rgb-regex132713564880760359 1
-106C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\views\pages\home\partials132714304245045854 1
+106C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\views\pages\home\partials132715175520807236 1
 127C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\chokidar\node_modules\glob-parent132713566820388893 1
 121C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\es-abstract\2015\WeekDay.js132699893840930000 0
 117C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\whatwg-url\lib\infra.js132646970884460000 0
@@ -229,7 +229,7 @@
 117C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\whatwg-url\package.json132646970884460000 0
 150C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\regenerate-unicode-properties\Script_Extensions\Adlam.js132573515142740000 0
 124C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\es-abstract\2015\IsCallable.js132699893840930000 0
-118C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\views\pages\home\partials\skills.twig132714304245045854 0
+118C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\views\pages\home\partials\skills.twig132715175520807236 0
 149C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\snapdragon\node_modules\source-map\lib\binary-search.js132573514873680000 0
 98C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\.bin132715162954902012 1
 109C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\.yarn-integrity132715162956776855 0
@@ -464,7 +464,7 @@
 115C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\buffer-equal\index.js132713173279230002 0
 100C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\assert132713564873479830 1
 110C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\onetime\index.js132713173280640000 0
-93C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\dist\app.css132715164122007401 0
+93C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\dist\app.css132715195460696973 0
 146C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\uncss\node_modules\postcss-selector-parser\README.md132713173263560000 0
 112C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\micromatch\LICENSE132573514941250000 0
 118C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\brfs\test\files\hoist.js132713173264880000 0
@@ -643,7 +643,7 @@
 131C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\es-abstract\5\IsAccessorDescriptor.js132699893840930000 0
 126C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\@babel\runtime\helpers\typeof.js132712814205450000 0
 102C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\vlq\dist132713564894674584 1
-98C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\pages132713608173575501 1
+98C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\pages132715195900869273 1
 104C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\json5\dist132713564887901260 1
 144C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\caniuse-lite\data\features\css-at-counter-style.js132713564850930000 0
 105C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\buffer-from132713564873908681 1
@@ -1110,7 +1110,6 @@
 126C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\.cache\cc\5f1bbd5b141fc67f3357234ab1379a.json132713611614806020 0
 145C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\unicode-trie\node_modules\pako\lib\utils\strings.js132713173268880002 0
 116C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\object-visit\README.md132573515162960000 0
-104C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\pages\admin132713608173595449 1
 137C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\core-js\library\modules\core.object.make.js132573515141240002 0
 106C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\terser\tools132713564894534960 1
 123C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\deasync\bin\darwin-x64-node-4132713564899561524 1
@@ -7036,7 +7035,6 @@
 138C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\postcss-normalize-repeat-style\dist\index.js132573515095420000 0
 140C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\postcss-normalize-repeat-style\dist\lib\map.js132573515095420000 0
 123C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\mdn-data\api\inheritance.json132573515124519998 0
-122C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\pages\admin\skills\_home.scss132713445225115812 0
 123C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\path-is-absolute\package.json132573515058480000 0
 126C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\postcss-normalize-positions\dist132713564892610086 1
 138C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\micromatch\node_modules\kind-of\CHANGELOG.md132573515027080000 0
@@ -7193,7 +7191,6 @@
 152C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\postcss-modules-scope\node_modules\postcss\lib\tokenize.js132713173254030000 0
 119C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\browserify-aes\browser.js132573515145510002 0
 150C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\postcss-modules-scope\node_modules\postcss\lib\vendor.js132713173254030000 0
-98C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\_icon.scss132714304952004696 0
 151C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\postcss-modules-scope\node_modules\postcss\lib\warning.js132713173254030000 0
 158C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\htmlnano\node_modules\htmlparser2\lib\CollectingHandler.d.ts.map132713173261630002 0
 132C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\htmlnano\node_modules\domutils\LICENSE132712647106740000 0
@@ -9260,6 +9257,7 @@
 115C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\core-js\es7\object.js132573515141240002 0
 121C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\core-js\modules\_iobject.js132573515141240002 0
 136C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\htmlnano\node_modules\posthtml-parser\dist132713564887651926 1
+112C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\elements\_icon.scss132715194183394686 0
 113C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\lodash\_baseRest.js132592542618460000 0
 117C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\brfs\test\files\tr.html132713173264880000 0
 119C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\lodash\_baseSampleSize.js132592542618460000 0
@@ -11464,7 +11462,7 @@
 135C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\caniuse-lite\data\features\audiotracks.js132713564850930000 0
 126C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\es-abstract\2020\IsExtensible.js132699893840930000 0
 133C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\es-abstract\2020\IsGenericDescriptor.js132699893840930000 0
-101C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\app.scss132715163972413746 0
+101C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\app.scss132715194383997888 0
 134C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\es-abstract\2020\IsNonNegativeInteger.js132699893840930000 0
 127C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\es-abstract\2020\IsPropertyKey.js132699893840930000 0
 126C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\ajv\lib\compile\error_classes.js132573514947939998 0
@@ -12101,7 +12099,7 @@
 123C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\entities\lib\maps\decode.json132573515141910000 0
 119C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\define-property\README.md132573515028420000 0
 123C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\entities\lib\maps\legacy.json132573515141910000 0
-96C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\dist\app.js.map132715164122007401 0
+96C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\dist\app.js.map132715195460696973 0
 114C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\encodeurl\HISTORY.md132573515065880002 0
 112C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\encodeurl\index.js132573515065880002 0
 139C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\core-js\library\fn\string\virtual\fontsize.js132573515141240002 0
@@ -12222,7 +12220,7 @@
 120C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\diffie-hellman\.travis.yml132573515128619998 0
 134C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\cssstyle\lib\properties\borderSpacing.js132713173276359998 0
 117C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\diffie-hellman\index.js132573515128619998 0
-97C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\dist\app.css.map132715164122163631 0
+97C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\dist\app.css.map132715195460696973 0
 116C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\diffie-hellman\LICENSE132573515128619998 0
 118C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\diffie-hellman\readme.md132573515128619998 0
 139C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\diffie-hellman\node_modules\.bin\miller-rabin132715162951304770 0
@@ -12287,7 +12285,7 @@
 158C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\define-property\node_modules\is-accessor-descriptor\package.json132573515133269998 0
 111C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\@parcel\utils\src132713564882914601 1
 155C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\define-property\node_modules\is-accessor-descriptor\README.md132573515133269998 0
-92C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass132715163972413746 1
+92C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass132715194383997888 1
 110C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\coa\README.ru.md132573515070280000 0
 148C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\css-modules-loader-core\node_modules\postcss\README.md132713173250130002 0
 166C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\define-property\node_modules\is-accessor-descriptor\node_modules\kind-of132713564877070227 1
@@ -16008,13 +16006,13 @@
 103C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\.bin\uuid132715162954745793 0
 104C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\node_modules\.bin\which132715162954902012 0
 95C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\img\sprite.svg132714303727543863 0
-92C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\dist\app.js132715164122007401 0
+92C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\dist\app.js132715195460696973 0
 102C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\classes\Domain\Skills132714002807852145 1
+101C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\elements132715194183394686 1
 100C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\modules132713608173435870 1
 110C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\tools\_utils.scss132713445225125788 0
 115C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\partials\_section.scss132713445225115812 0
-109C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\pages\_home.scss132713445225105839 0
-111C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\pages\admin\skills132713608173665270 1
+109C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\pages\_home.scss132715195900869273 0
 109C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\components\Forms132713608173326166 1
 117C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\components\_buttons.scss132713445225085894 0
 115C:\wamp64\www\freelance\jodurier_kevin\bedrock\web\app\themes\kevinj30_portfolio\assets\sass\components\_modal.scss132713517144944594 0

@@ -59,8 +59,14 @@
     flex-direction: row;
 }
 
-.skill__notes > span { margin-right: space(1, 8); }
-.skill_notes > span:last-child { margin-right:0; }
+.skill__notes > .icon {
+    width:18px;
+    height:18px;
+    margin-right: space(1, 8);
+}
+
+.skill_notes > .icon:last-child { margin-right:0; }
+.skill__notes > .star-active { color: $light-color; }
 
 .skill__svg svg {
     width: 80px;
