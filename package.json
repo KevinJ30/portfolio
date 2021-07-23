@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "parcel-dev": "npx parcel ./web/app/themes/kevinj30_portfolio/assets/js/app.js",
+    "parcel-watch": "npx parcel watch ./web/app/themes/kevinj30_portfolio/assets/js/app.js",
+    "parcel-build": "npx parcel build ./web/app/themes/kevinj30_portfolio/assets/js/app.js"
+  },
   "dependencies": {
     "reset-css": "^5.0.1"
   }

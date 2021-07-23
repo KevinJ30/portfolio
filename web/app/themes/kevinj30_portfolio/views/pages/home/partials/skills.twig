@@ -1,7 +1,12 @@
+<pre>
+    {{ dump(theme.link ~ '/img/sprite.svg') }}
+</pre>
 <div id="skills" class="skills">
     <h1 class="section__title">Compétences</h1>
     <p class="section__details">Présentation de mes compétences</p>
-
+    <svg class="icon icon-star">
+        <use xlink:href="{{ theme.link ~ '/img/sprite.svg' }}#star"></use>
+    </svg>
     <!-- Technologie frontend -->
     <h3>Technologie frontend</h3>
     <div class="skills__container">
@@ -12,7 +17,7 @@
                 <div class="skill">
                     <div class="skill__notes">
                         {{ skill.level }}
-                        {{ notes(5) }}
+                        {{ rates(2) }}
                     </div>
 
                     <div class="skill__svg">

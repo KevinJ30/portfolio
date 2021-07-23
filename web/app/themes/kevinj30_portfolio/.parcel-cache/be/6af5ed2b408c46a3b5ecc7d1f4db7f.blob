@@ -667,4 +667,3 @@ table tbody tr:nth-child(even) {
   width: 10px;
   height: 10px;
 }
-/*# sourceMappingURL=app.css.map */
