@@ -11,4 +11,8 @@ $context['skills'] = Timber::get_posts([
     'post_type' => 'compétence'
 ]);
 
+$context['projects'] = Timber::get_posts([
+   'post_type' => 'Projet'
+]);
+
 Timber::render('pages/home/index.twig', $context);
