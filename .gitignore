@@ -26,3 +26,10 @@ wp-cli.local.yml
 
 # Themes files
 web/app/themes/kevinj30_portfolio/node_modules
+
+# caches project
+web/app/themes/kevinj30_portfolio/.cache
+web/app/themes/kevinj30_portfolio/.parcel-cache
+
+#IDE
+/.idea

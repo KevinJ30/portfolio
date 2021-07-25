@@ -1,0 +1,26 @@
+{% extends 'base.twig' %}
+
+{% block content %}
+    <main class="page page-home">
+        <!-- Section introduction -->
+        <div class="section section_home">
+            <div class="container">
+                {% include 'pages/home/partials/introduction.twig' %}
+            </div>
+        </div>
+
+        <!-- Section skills -->
+        <div class="section section_skills">
+            <div class="container">
+                {% include 'pages/home/partials/skills.twig' %}
+            </div>
+        </div>
+
+        <!-- Section projects -->
+        <div class="section section_projects">
+            <div class="container">
+                {% include 'pages/home/partials/projects.twig' %}
+            </div>
+        </div>
+    </main>
+{% endblock %}

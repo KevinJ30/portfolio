@@ -1,0 +1,34 @@
+<pre>
+    {{ dump(theme.link ~ '/img/sprite.svg') }}
+</pre>
+<div id="skills" class="skills">
+    <h1 class="section__title">Compétences</h1>
+    <p class="section__details">Présentation de mes compétences</p>
+    <!-- Technologie frontend -->
+    <h3>Technologie frontend</h3>
+    <div class="skills__container">
+        {% for skill in skills %}
+
+            <div class="skill">
+
+                <div class="skill">
+                    <div class="skill__notes">
+                        {{ rates(skill.level) }}
+                    </div>
+
+                    <div class="skill__svg">
+
+                        {{ skill.img }}
+
+                    </div>
+
+                    <div class="skill__name">
+                        {{ skill.title }}
+                    </div>
+                </div>
+
+            </div>
+
+        {% endfor %}
+    </div>
+</div>
