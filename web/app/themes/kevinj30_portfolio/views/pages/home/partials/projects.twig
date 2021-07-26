@@ -1,6 +1,9 @@
 <h2 class="section__title">Mes dernières réalisation</h2>
 <p class="section__details">Parcourez une petite partie de mes réalisations</p>
 <div class="projects__container">
+    <pre>
+        {{ dump(projects) }}
+    </pre>
     {% for project in projects %}
         <div class="card">
             <div class="card__image">
@@ -10,7 +13,10 @@
                 <p class="card__details">{{ project.details_project }}</p>
                 <h3>{{ project.title }}</h3>
                 <p>{{ project.description }}</p>
-                <a class="btn btn-primary btn-outline mt-4" href="{{ project.link }}">En savoir plus...</a>
+                <div class="mt-2">
+                    <view-project data="{{ project }}" url="{{ project.link }}"></view-project>
+                </div>
+{#                <a class="btn btn-primary btn-outline mt-4" href="{{ project.link }}">En savoir plus...</a>#}
             </div>
         </div>
     {% endfor %}

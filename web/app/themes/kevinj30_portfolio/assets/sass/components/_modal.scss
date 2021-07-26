@@ -14,8 +14,8 @@
 .modal--wrapper {
   position: relative;
   padding:16px;
-  width: 80%;
-  background:$light-color;
+  width: 90%;
+  background:$primary-color;
   border-radius:5px;
   box-shadow: 10px 10px 40px #0F1315;
   animation: slideInTop 1s;
@@ -23,7 +23,7 @@
   transition-timing-function: ease-in-out;
 }
 
-.modal--wrapper > * { color:#000; }
+.modal--wrapper > * { color:$light-color; }
 
 .modal-button-close {
   position: absolute;
@@ -31,15 +31,16 @@
   right: 16px;
   border:none;
   cursor:pointer;
+  background: transparent;
 }
 
 .modal-button-close svg{
-  color:adjust-color($primary-color, $alpha: -0.5);
+  color:adjust-color($light-color, $alpha: -0.5);
   transition: color .3s ease, transform .3s ease;
 }
 
 .modal-button-close:hover svg{
-  color:adjust-color($primary-color, $alpha: 1);
+  color:adjust-color($light-color, $alpha: 1);
   transform: translateY(-1px) scale(1.03);
 }
 

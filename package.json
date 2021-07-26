@@ -5,6 +5,17 @@
     "parcel-build": "npx parcel build ./web/app/themes/kevinj30_portfolio/assets/js/app.js"
   },
   "dependencies": {
+    "@parcel/babel-preset-env": "^2.0.0-alpha.3",
+    "@types/react": "^17.0.15",
+    "@types/react-dom": "^17.0.9",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
     "reset-css": "^5.0.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.0.0-beta.3.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "parcel": "^2.0.0-beta.3.1"
   }
 }

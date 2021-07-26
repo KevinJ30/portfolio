@@ -340,8 +340,8 @@ a {
 .modal--wrapper {
   position: relative;
   padding: 16px;
-  width: 80%;
-  background: #EFEFF0;
+  width: 90%;
+  background: #131618;
   border-radius: 5px;
   box-shadow: 10px 10px 40px #0F1315;
   animation: slideInTop 1s;
@@ -350,7 +350,7 @@ a {
 }
 
 .modal--wrapper > * {
-  color: #000;
+  color: #EFEFF0;
 }
 
 .modal-button-close {
@@ -359,15 +359,16 @@ a {
   right: 16px;
   border: none;
   cursor: pointer;
+  background: transparent;
 }
 
 .modal-button-close svg {
-  color: rgba(19, 22, 24, 0.5);
+  color: rgba(239, 239, 240, 0.5);
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .modal-button-close:hover svg {
-  color: #131618;
+  color: #efeff0;
   transform: translateY(-1px) scale(1.03);
 }
 

@@ -1,0 +1,9 @@
+{
+  "target": "esnext",
+  "lib": ["esnext", "dom"],
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react",
+    "noImplicitAny": true
+  }
+}
