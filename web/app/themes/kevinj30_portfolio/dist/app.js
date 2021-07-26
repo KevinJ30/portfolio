@@ -21428,43 +21428,72 @@ var _modal = require("../../components/Modal/Modal");
 function ViewProjectContent(props) {
     const [load, setLoad] = _react.useState(false);
     const [data, setData] = _react.useState([]);
+    const [customField, setCustomField] = _react.useState([]);
     _react.useEffect(()=>{
-        //Chargement des données depuis l'api google
+        // Get data in your API Wordpress
         fetch('wp-json/wp/v2/projets/' + props.project_id).then((response)=>response.json()
         ).then((data1)=>{
             setData(data1);
-            setLoad(true);
         });
-        // Get meta
-        fetch('wp-json').then((response)=>response.json()
+        // Get Meta in your ACF
+        fetch('wp-json/acf/v3/projets/' + props.project_id).then((response)=>response.json()
         ).then((data1)=>{
-            console.log(data1);
+            setCustomField(data1.acf);
+            setLoad(true);
         });
     }, []);
     if (!load) return 'Chargement...';
-    else return(/*#__PURE__*/ _react.createElement(_react.Fragment, {
-        __source: {
-            fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\CustomElement\\Projects\\ViewProject.tsx",
-            lineNumber: 50
-        },
-        __self: this
-    }, /*#__PURE__*/ _react.createElement("h2", {
-        dangerouslySetInnerHTML: {
-            __html: data.details_project
-        },
-        __source: {
-            fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\CustomElement\\Projects\\ViewProject.tsx",
-            lineNumber: 51
-        },
-        __self: this
-    }), /*#__PURE__*/ _react.createElement("div", {
-        className: "project_details",
-        __source: {
-            fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\CustomElement\\Projects\\ViewProject.tsx",
-            lineNumber: 52
-        },
-        __self: this
-    })));
+    else {
+        console.log(customField);
+        return(/*#__PURE__*/ _react.createElement(_react.Fragment, {
+            __source: {
+                fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\CustomElement\\Projects\\ViewProject.tsx",
+                lineNumber: 53
+            },
+            __self: this
+        }, /*#__PURE__*/ _react.createElement("h2", {
+            dangerouslySetInnerHTML: {
+                __html: data.title.rendered
+            },
+            __source: {
+                fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\CustomElement\\Projects\\ViewProject.tsx",
+                lineNumber: 54
+            },
+            __self: this
+        }), /*#__PURE__*/ _react.createElement("div", {
+            className: "project_details project__details",
+            __source: {
+                fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\CustomElement\\Projects\\ViewProject.tsx",
+                lineNumber: 55
+            },
+            __self: this
+        }, customField.details_project), /*#__PURE__*/ _react.createElement("div", {
+            className: "project__content",
+            __source: {
+                fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\CustomElement\\Projects\\ViewProject.tsx",
+                lineNumber: 58
+            },
+            __self: this
+        }, /*#__PURE__*/ _react.createElement("img", {
+            src: customField.img,
+            alt: "Image de pr\xe9sentation du projet",
+            className: "project__image",
+            __source: {
+                fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\CustomElement\\Projects\\ViewProject.tsx",
+                lineNumber: 59
+            },
+            __self: this
+        }), /*#__PURE__*/ _react.createElement("div", {
+            dangerouslySetInnerHTML: {
+                __html: data.content.rendered
+            },
+            __source: {
+                fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\CustomElement\\Projects\\ViewProject.tsx",
+                lineNumber: 60
+            },
+            __self: this
+        }))));
+    }
 }
 function ViewProject(props) {
     const [open, setOpen] = _react.useState(false);
@@ -21475,21 +21504,21 @@ function ViewProject(props) {
     return(/*#__PURE__*/ _react.createElement(_react.Fragment, {
         __source: {
             fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\CustomElement\\Projects\\ViewProject.tsx",
-            lineNumber: 66
+            lineNumber: 73
         },
         __self: this
     }, /*#__PURE__*/ _react.createElement(_modal.Modal, {
         button_text: "En savoir plus",
         __source: {
             fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\CustomElement\\Projects\\ViewProject.tsx",
-            lineNumber: 67
+            lineNumber: 74
         },
         __self: this
     }, /*#__PURE__*/ _react.createElement(ViewProjectContent, {
-        project_id: props.id,
+        project_id: props.project_id,
         __source: {
             fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\CustomElement\\Projects\\ViewProject.tsx",
-            lineNumber: 68
+            lineNumber: 75
         },
         __self: this
     }))));
@@ -22157,8 +22186,6 @@ var _reactDom = require("react-dom");
     _react.useEffect(()=>{
         setLoad(true);
         document.body.addEventListener('keyup', handleEscape);
-        // @ts-ignore
-        ref.current.parentNode.style.top = window.scrollY + "px";
         return ()=>{
             document.body.removeEventListener('keyup', handleEscape);
             setLoad(false);
@@ -22180,7 +22207,7 @@ var _reactDom = require("react-dom");
         className: "modal",
         __source: {
             fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\components\\Modal\\Modal.tsx",
-            lineNumber: 100
+            lineNumber: 98
         },
         __self: this
     }, /*#__PURE__*/ _react.createElement("div", {
@@ -22188,7 +22215,7 @@ var _reactDom = require("react-dom");
         className: "modal--wrapper",
         __source: {
             fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\components\\Modal\\Modal.tsx",
-            lineNumber: 101
+            lineNumber: 99
         },
         __self: this
     }, /*#__PURE__*/ _react.createElement("button", {
@@ -22198,7 +22225,7 @@ var _reactDom = require("react-dom");
         },
         __source: {
             fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\components\\Modal\\Modal.tsx",
-            lineNumber: 102
+            lineNumber: 100
         },
         __self: this
     }, /*#__PURE__*/ _react.createElement("svg", {
@@ -22209,7 +22236,7 @@ var _reactDom = require("react-dom");
         xmlns: "http://www.w3.org/2000/svg",
         __source: {
             fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\components\\Modal\\Modal.tsx",
-            lineNumber: 103
+            lineNumber: 101
         },
         __self: this
     }, /*#__PURE__*/ _react.createElement("path", {
@@ -22217,27 +22244,27 @@ var _reactDom = require("react-dom");
         fill: "currentColor",
         __source: {
             fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\components\\Modal\\Modal.tsx",
-            lineNumber: 104
+            lineNumber: 102
         },
         __self: this
     }))), /*#__PURE__*/ _react.createElement("div", {
         className: "modal-header",
         __source: {
             fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\components\\Modal\\Modal.tsx",
-            lineNumber: 111
+            lineNumber: 109
         },
         __self: this
     }, /*#__PURE__*/ _react.createElement("h4", {
         __source: {
             fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\components\\Modal\\Modal.tsx",
-            lineNumber: 112
+            lineNumber: 110
         },
         __self: this
     }, props.modal_title)), /*#__PURE__*/ _react.createElement("div", {
         className: "modal-content",
         __source: {
             fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\components\\Modal\\Modal.tsx",
-            lineNumber: 114
+            lineNumber: 112
         },
         __self: this
     }, props.children))), document.body));
@@ -22265,7 +22292,7 @@ function Modal(props) {
             modal_title: props.modal_title,
             __source: {
                 fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\components\\Modal\\Modal.tsx",
-                lineNumber: 151
+                lineNumber: 149
             },
             __self: this
         }, props.children);
@@ -22273,7 +22300,7 @@ function Modal(props) {
     return(/*#__PURE__*/ _react.createElement(_react.Fragment, {
         __source: {
             fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\components\\Modal\\Modal.tsx",
-            lineNumber: 154
+            lineNumber: 152
         },
         __self: this
     }, /*#__PURE__*/ _react.createElement("button", {
@@ -22281,7 +22308,7 @@ function Modal(props) {
         onClick: handleOpenClick,
         __source: {
             fileName: "C:\\wamp64\\www\\Freelance\\joudrier_kevin\\portfolio\\web\\app\\themes\\kevinj30_portfolio\\assets\\js\\components\\Modal\\Modal.tsx",
-            lineNumber: 155
+            lineNumber: 153
         },
         __self: this
     }, props.button_text), displayModal()));

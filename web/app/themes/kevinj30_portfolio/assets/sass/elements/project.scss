@@ -1,0 +1,16 @@
+.project__details {
+  margin:0;
+  color:$secondary-color;
+  font-size:0.8em;
+}
+
+.project__content {
+  display:grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.project__image {
+    display:block;
+    max-width:800px;
+}

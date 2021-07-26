@@ -26,20 +26,22 @@ interface ProjectInterface {
 function ViewProjectContent(props: any) {
     const [load, setLoad] = useState(false);
     const [data, setData] = useState([]);
+    const  [customField, setCustomField] = useState([]);
 
     useEffect(() => {
-        //Chargement des données depuis l'api google
+        // Get data in your API Wordpress
         fetch('wp-json/wp/v2/projets/' + props.project_id)
             .then(response => response.json())
             .then(data => {
                 setData(data);
-                setLoad(true);
             })
-        // Get meta
-        fetch('wp-json')
+
+        // Get Meta in your ACF
+        fetch('wp-json/acf/v3/projets/' + props.project_id)
             .then(response => response.json())
             .then(data => {
-                console.log(data)
+                setCustomField(data.acf)
+                setLoad(true);
             })
     }, []);
 
@@ -47,10 +49,15 @@ function ViewProjectContent(props: any) {
         return 'Chargement...';
     }
     else {
+        {console.log(customField)}
         return <React.Fragment>
-            <h2 dangerouslySetInnerHTML={{__html: data.details_project}} />
-            <div className="project_details">
-
+            <h2 dangerouslySetInnerHTML={{__html: data.title.rendered}} />
+            <div className="project_details project__details">
+                { customField.details_project }
+            </div>
+            <div className="project__content">
+                <img src={customField.img} alt="Image de présentation du projet" className={"project__image"}/>
+                <div dangerouslySetInnerHTML={{__html: data.content.rendered}} />
             </div>
         </React.Fragment>;
     }
@@ -65,7 +72,7 @@ export default function ViewProject(props: any) {
 
     return <React.Fragment>
         <Modal button_text={"En savoir plus"}>
-            <ViewProjectContent project_id={props.id} />
+            <ViewProjectContent project_id={props.project_id} />
         </Modal>
     </React.Fragment>;
 }

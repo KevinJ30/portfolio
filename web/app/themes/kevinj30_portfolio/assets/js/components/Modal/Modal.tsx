@@ -77,8 +77,6 @@ function ModalDialog(props: ModalBehaviorInterface) {
     useEffect(() => {
         setLoad(true)
         document.body.addEventListener('keyup', handleEscape);
-        // @ts-ignore
-        ref.current.parentNode.style.top = window.scrollY + "px"
 
         return () => {
             document.body.removeEventListener('keyup', handleEscape);

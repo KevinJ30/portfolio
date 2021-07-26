@@ -13,6 +13,8 @@ h1, h2, h3, h4, h5 {
 }
 
 ul {
+  margin-top: space(1, 8);
+  padding-left:space(2, 8);
   list-style: disc inside;
 }
 
@@ -24,6 +26,14 @@ a {
   border-bottom: 1px solid $light-color;
   text-decoration: none;
   color: $light-color;
+}
+
+p {
+  margin-top:space(3, 8);
+}
+
+strong {
+  font-weight:600;
 }
 
 .text-align-center {
