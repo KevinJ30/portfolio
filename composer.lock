@@ -4,8 +4,58 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2a64276de88aa3ee8fdf07d1eee2e626",
+    "content-hash": "84d6b3e583a3b9d1215c8a1cae2c60d2",
     "packages": [
+        {
+            "name": "airesvsg/acf-to-rest-api",
+            "version": "3.3.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/airesvsg/acf-to-rest-api.git",
+                "reference": "6f42683e779f8fc6e38a6caf0a8fdb25381281c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/airesvsg/acf-to-rest-api/zipball/6f42683e779f8fc6e38a6caf0a8fdb25381281c6",
+                "reference": "6f42683e779f8fc6e38a6caf0a8fdb25381281c6",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "~1.0",
+                "php": ">=5.3.2"
+            },
+            "type": "wordpress-plugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "GPL-2.0-only"
+            ],
+            "authors": [
+                {
+                    "name": "Aires Gonçalves",
+                    "email": "airesvsg@gmail.com",
+                    "homepage": "http://airesgoncalves.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Exposes Advanced Custom Fields Endpoints in the WordPress REST API",
+            "homepage": "https://github.com/airesvsg/acf-to-rest-api",
+            "keywords": [
+                "acf",
+                "fields",
+                "json",
+                "rest-api",
+                "wordpres-plugin",
+                "wordpress",
+                "wp",
+                "wp-api"
+            ],
+            "support": {
+                "email": "airesvsg@gmail.com",
+                "issues": "https://github.com/airesvsg/acf-to-rest-api/issues",
+                "source": "https://github.com/airesvsg/acf-to-rest-api/tree/3.3.2"
+            },
+            "time": "2020-10-24T02:00:44+00:00"
+        },
         {
             "name": "altorouter/altorouter",
             "version": "v1.2.0",
@@ -2091,8 +2141,8 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.1"
+        "php": ">=7.4"
     },
     "platform-dev": [],
-    "plugin-api-version": "2.0.0"
+    "plugin-api-version": "2.1.0"
 }

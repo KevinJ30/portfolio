@@ -33,3 +33,6 @@ web/app/themes/kevinj30_portfolio/.parcel-cache
 
 #IDE
 /.idea
+
+## LIB
+/node_modules

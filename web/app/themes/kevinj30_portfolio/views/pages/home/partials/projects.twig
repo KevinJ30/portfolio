@@ -2,15 +2,18 @@
 <p class="section__details">Parcourez une petite partie de mes réalisations</p>
 <div class="projects__container">
     {% for project in projects %}
-        <div class="card">
+        <div class="card project">
             <div class="card__image">
                 <img src="{{ project.thumbnail }}" alt="">
             </div>
             <div class="card__content">
-                <p class="card__details">{{ project.details_project }}</p>
                 <h3>{{ project.title }}</h3>
+                <p class="project__details">{{ project.details_project }}</p>
                 <p>{{ project.description }}</p>
-                <a class="btn btn-primary btn-outline mt-4" href="{{ project.link }}">En savoir plus...</a>
+                <div class="mt-2">
+                    <view-project project_id="{{ project.id }}" url="{{ project.link }}"></view-project>
+                </div>
+{#                <a class="btn btn-primary btn-outline mt-4" href="{{ project.link }}">En savoir plus...</a>#}
             </div>
         </div>
     {% endfor %}

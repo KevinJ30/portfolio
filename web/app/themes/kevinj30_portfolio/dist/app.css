@@ -113,6 +113,8 @@ h1, h2, h3, h4, h5 {
 }
 
 ul {
+  margin-top: 8px;
+  padding-left: 16px;
   list-style: disc inside;
 }
 
@@ -124,6 +126,14 @@ a {
   border-bottom: 1px solid #EFEFF0;
   text-decoration: none;
   color: #EFEFF0;
+}
+
+p {
+  margin-top: 24px;
+}
+
+strong {
+  font-weight: 600;
 }
 
 .text-align-center {
@@ -296,12 +306,6 @@ a {
   padding: 32px;
 }
 
-.card__details {
-  margin-bottom: 24px;
-  color: #C2B787;
-  font-size: 0.8em;
-}
-
 .form-group {
   display: flex;
   flex-direction: column;
@@ -328,7 +332,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -340,17 +344,19 @@ a {
 .modal--wrapper {
   position: relative;
   padding: 16px;
-  width: 80%;
-  background: #EFEFF0;
+  width: 90%;
+  height: 90vh;
+  background: #131618;
   border-radius: 5px;
   box-shadow: 10px 10px 40px #0F1315;
+  overflow-y: scroll;
   animation: slideInTop 1s;
   transition: transform 0.5s, opacity 0.5s;
   transition-timing-function: ease-in-out;
 }
 
 .modal--wrapper > * {
-  color: #000;
+  color: #EFEFF0;
 }
 
 .modal-button-close {
@@ -359,15 +365,16 @@ a {
   right: 16px;
   border: none;
   cursor: pointer;
+  background: transparent;
 }
 
 .modal-button-close svg {
-  color: rgba(19, 22, 24, 0.5);
+  color: rgba(239, 239, 240, 0.5);
   transition: color 0.3s ease, transform 0.3s ease;
 }
 
 .modal-button-close:hover svg {
-  color: #131618;
+  color: #efeff0;
   transform: translateY(-1px) scale(1.03);
 }
 
@@ -503,6 +510,23 @@ table tbody tr:nth-child(even) {
 .icon {
   width: 20px;
   height: 20px;
+}
+
+.project__details {
+  margin: 0;
+  color: #C2B787;
+  font-size: 0.8em;
+}
+
+.project__content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.project__image {
+  display: block;
+  max-width: 800px;
 }
 
 /**

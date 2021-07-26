@@ -80,7 +80,8 @@ abstract class AbstractPostType
             'public'              => true,
             'has_archive'         => true,
             'rewrite'             => array( 'slug' => $this->name),
-            'menu_icon'           => $this->menuIcon
+            'menu_icon'           => $this->menuIcon,
+            'rest_base'           => $this->name
         ];
     }
 }
